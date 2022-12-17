@@ -1,0 +1,199 @@
+*{
+    font-size: 22px;
+}
+
+ .image{
+    border-radius: 50%;
+    left:7%;
+    position: relative;
+}
+.navbar{
+    left:30%;
+    position: absolute;
+}
+#design{
+    color: rgb(19, 19, 97);
+}
+#design:hover{
+    color: blue;
+}
+ .slider-img{
+   text-align: center;
+   overflow-x: hidden;
+} 
+#slide{
+    box-shadow: 0px 0px 15px  black;
+}
+#toggle{
+     right:60%;
+    position: relative; 
+}
+
+#tanvi{
+    font-size: 25px;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+#tanvi:hover{
+    text-decoration: underline;
+    transform: scale(1.2);
+    transition: transform 0.6s;
+}
+
+.hi{
+    height: 90vh;
+
+}
+.pp{
+    margin-top: 3%;
+    color: rgb(24, 11, 99);
+}
+.pp > h2{
+    text-shadow: 2px 1px gray;
+}
+.white{
+    color: rgb(54, 38, 146);
+    text-align: center;
+} 
+.cd > h2{
+    position: relative;
+    color: rgb(16, 64, 95);
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    color: bule;
+    text-align: center;
+}
+.abt{
+    text-align: center;
+    color: rgb(44, 20, 20);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.car{
+    box-shadow: 0px 0px 10px gray;
+}
+.car:hover{
+    transform: scale(1.1);
+    transition: transform 0.6s;
+    background-color: rgb(158, 150, 150);
+}
+.cardp{
+    color: rgb(37,35,35);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tit{
+    color:rgb(31,81,128);
+    text-align: center;
+}
+
+/*product*/
+.head{
+     font-size: 45px;
+    color: rgb(16, 64, 95);
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.hd{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    color: rgb(61, 61, 155);
+    cursor: pointer;
+}
+.align-cont{
+    width: 90vw;
+    text-align: center;
+}
+.center{
+    top:30% ;
+    position: relative; 
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    gap: 3rem 2rem;
+    justify-content: center; 
+}  
+ .itms{
+    text-align: center;
+    /* gap: 1rem 2rem;
+    max-width: 25rem;
+    margin-top: 70px; */
+} 
+.info{
+    margin-top: 5%;
+}
+.photo{
+    
+    object-fit: cover;
+    height: 300px;
+    width: 100%; 
+    border: 2px solid gray;
+    box-shadow: 0px 0px 15px  gray;
+
+}
+.photo:hover{
+    transform: scale(1.1);
+    transition: transform 0.6s;
+}
+.price{
+    color: green;
+}
+
+.text{
+    margin-bottom: 0; 
+    margin-top: 1rem;
+
+}
+.hd:hover{
+    background-color: rgb(61, 61, 155);
+    border-radius: 20px;
+    color: white;
+}
+.hd:active{
+    text-decoration: underline;
+}
+ @media screen and (min-width: 786px){
+    .itms{
+        grid-template-columns: 225px 1fr;
+        gap: 0 1.25rem;
+        max-width: 40rem;
+    }
+    .photo{
+         height: 175px; 
+    }
+}
+@media screen and (min-width: 1200px){
+    .center{
+        width: 95vw;
+        grid-template-columns: 1fr 1fr;
+    }
+    .photo{
+         height: 300px; 
+         width: 350px;
+
+    }
+
+} 
+/*contact*/
+.contact{
+    text-align: center;
+    color: rgb(16, 64, 95);
+
+}
+ul> li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+ul > li > a{
+    text-decoration: none;
+}
+    
